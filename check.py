@@ -22,8 +22,8 @@ for j in  card_num:
     counter+=1
 last_sum=sumc+sumt
 if last_sum%10==0:
-    print("Gercek kredi karti numarasi")
+    print("Luhn algoritmasına uyuyor.")
 else:
-    print("Gercek kredi karti numarasi değil")
+    print("Luhn algoritmasına uymuyor.")
 
         
